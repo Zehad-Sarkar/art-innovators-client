@@ -5,7 +5,7 @@ import Loading from "../../components/Loading";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
-
+  // loading
   <Loading></Loading>;
 
   const handleLogout = () => {
@@ -15,11 +15,17 @@ const Navbar = () => {
     <>
       <li>
         <Link className="mr-6 text-lg font-semibold">Home</Link>
-        <Link to='/instructors' className="mr-6 text-lg font-semibold">Instructor</Link>
-        <Link to='/classes' className="mr-6 text-lg font-semibold">Classes</Link>
+        <Link to="/instructors" className="mr-6 text-lg font-semibold">
+          Instructor
+        </Link>
+        <Link to="/classes" className="mr-6 text-lg font-semibold">
+          Classes
+        </Link>
         {user && user ? (
           <>
-            <Link to='/dashboard' className="mr-6 text-lg font-semibold">Dashboard</Link>
+            <Link to="/dashboard" className="mr-6 text-lg font-semibold">
+              Dashboard
+            </Link>
             <Link onClick={handleLogout} className="mr-6 text-lg font-semibold">
               Log out
             </Link>
