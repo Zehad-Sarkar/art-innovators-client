@@ -13,7 +13,7 @@ const PopularClasses = () => {
   return (
     <>
       <SectionTitle title="Popular Classes" />
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid gap-4 lg:grid-cols-3 md:grid-cols-2">
         {sliceClass.map((item, i) => (
           <ClassesCard key={i} items={item}></ClassesCard>
         ))}

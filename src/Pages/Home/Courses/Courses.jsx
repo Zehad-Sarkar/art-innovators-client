@@ -13,7 +13,7 @@ const Courses = () => {
   return (
     <div className="grid items-center justify-center m-auto mb-4">
       <SectionTitle title="All Classes"></SectionTitle>
-      <div className="gap-3 md:flex">
+      <div className="gap-8 md:gap-3 md:flex">
         {allCourses.map((course, i) => (
           <div
             key={i}
