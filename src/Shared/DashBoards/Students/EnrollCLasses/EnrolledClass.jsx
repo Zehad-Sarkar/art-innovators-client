@@ -14,7 +14,7 @@ const EnrolledClass = () => {
           <th>Price</th>
         </tr>
       </thead>
-      {/* body */}
+
       <tbody>
         {enrolledClasses.map((item, i) => (
           <EnrolledClassTable
