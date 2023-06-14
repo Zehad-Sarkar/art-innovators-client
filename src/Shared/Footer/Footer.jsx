@@ -44,7 +44,7 @@ const Footer = () => {
       </footer>
       <div className="p-2 footer-center text-base-content">
         <p className="font-medium">
-          Copyright © 2023 - All right reserved by ART INNOVATORS ACADEMY
+          Copyright © 2023 - All right reserved by - ART INNOVATORS ACADEMY
         </p>
       </div>
     </div>
