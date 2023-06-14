@@ -21,7 +21,7 @@ const ManageClass = () => {
             <th>action</th>
           </tr>
         </thead>
-        {/* body */}
+        {/* body */} 
         <tbody>
           {manageClasses.map((item, i) => (
             <ManageClassTable
