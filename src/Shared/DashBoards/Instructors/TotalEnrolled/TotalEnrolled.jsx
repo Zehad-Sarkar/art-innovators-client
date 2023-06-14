@@ -25,7 +25,6 @@ const TotalEnrolled = () => {
             <th>Status</th>
           </tr>
         </thead>
-        {/* body */}
         <tbody>
           {enrollNumber.map((item, i) => (
             <TotalEnrolledNumberTable
