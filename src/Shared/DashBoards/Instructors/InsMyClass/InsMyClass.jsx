@@ -15,7 +15,6 @@ const InsMyClass = () => {
             <th>Class Name</th>
             <th>Instructor</th>
             <th>Available Seat</th>
-           
             <th>Price</th>
             <th>Status</th>
             <th>Action</th>
