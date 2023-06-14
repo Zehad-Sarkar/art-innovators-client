@@ -16,7 +16,7 @@ const CheckoutForm = ({ classes, price }) => {
   const [processing, setProcessing] = useState(false);
   const [transactionId, setTransactionId] = useState("");
 
-  //payment api here
+  //payment api
   useEffect(() => {
     axios
       .post("https://art-innovators-server.vercel.app/create-payment-intent", {
