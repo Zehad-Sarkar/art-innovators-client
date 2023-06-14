@@ -1,12 +1,11 @@
-
-import usePaymentHistory from '../../../../hooks/usePaymentHistory';
-import PaymentHistoryTable from './PaymentHistoryTable';
+import usePaymentHistory from "../../../../hooks/usePaymentHistory";
+import PaymentHistoryTable from "./PaymentHistoryTable";
 
 const PaymentHistory = () => {
-  const [paymentHistory]=usePaymentHistory()
+  const [paymentHistory] = usePaymentHistory();
   return (
     <table className="table">
-      {/* head */}
+     
       <thead>
         <tr>
           <th>Sl</th>
@@ -17,7 +16,7 @@ const PaymentHistory = () => {
           <th>Price</th>
         </tr>
       </thead>
-      {/* body */}
+
       <tbody>
         {paymentHistory.map((item, i) => (
           <PaymentHistoryTable
