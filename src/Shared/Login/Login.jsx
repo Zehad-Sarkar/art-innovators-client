@@ -31,7 +31,7 @@ const Login = () => {
     setShowPassword(!showPassword);
   };
   return (
-    <div className="p-4 mx-auto border-2 w-96 m-2">
+    <div className="p-4 m-2 mx-auto border-2 w-96">
       <div className="login-header">Please Login</div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="p-1 form-control">
@@ -74,10 +74,11 @@ const Login = () => {
 
         <input className="hover:bg-slate-500" type="submit" value="Login" />
       </form>
+      {/* redirect register page */}
       <div className="text-center ">
         <p>
           Don't have an account? go to
-          <Link to="/signup" className="text-blue-400 ml-2">
+          <Link to="/signup" className="ml-2 text-blue-400">
             register
           </Link>
         </p>
