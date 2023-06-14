@@ -29,8 +29,6 @@ const UpdateClass = () => {
         if (imgData.success) {
           const imgURL = imgData.data.display_url;
           const newUpdates = {
-            // name: user.displayName,
-            // email: user.email,
             price: parseFloat(data.price),
             classesName: data.classesName,
             image: imgURL,
