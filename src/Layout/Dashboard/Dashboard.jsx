@@ -25,7 +25,7 @@ const Dashboard = () => {
           {users.role === "admin" ? (
             <>
               <li>
-                <Link to="/dashboard" className="text-2xl font-bold link-btn">
+                <Link className="text-2xl font-bold link-btn">
                   Admin Dashboard
                 </Link>
               </li>
@@ -43,7 +43,7 @@ const Dashboard = () => {
           ) : users.role === "instructor" ? (
             <>
               <li>
-                <Link to="/dashboard" className="text-2xl font-bold link-btn">
+                <Link className="text-2xl font-bold link-btn">
                   Instructor Dashboard
                 </Link>
               </li>
@@ -66,7 +66,7 @@ const Dashboard = () => {
           ) : (
             <>
               <li>
-                <Link to="/dashboard" className="text-2xl font-bold link-btn">
+                <Link className="text-2xl font-bold link-btn">
                   Students Dashboard
                 </Link>
               </li>
