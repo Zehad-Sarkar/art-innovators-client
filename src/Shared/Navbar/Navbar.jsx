@@ -5,12 +5,14 @@ import Loading from "../../components/Loading";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
+
   // loading
   <Loading></Loading>;
 
   const handleLogout = () => {
     logOut().then(() => {});
   };
+
   const navMenu = (
     <>
       <li>
@@ -54,7 +56,7 @@ const Navbar = () => {
   return (
     <div className="h-32 navbar bg-slate-400">
       <div className="navbar-start">
-        <div className="dropdown">
+        <div className="z-20 dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"

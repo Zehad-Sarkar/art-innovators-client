@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className="p-2 footer-center text-base-content">
+      <div className="p-2 footer-center text-base-content bg-slate-400">
         <p className="font-medium">
           Copyright © 2023 - All right reserved by - ART INNOVATORS ACADEMY
         </p>

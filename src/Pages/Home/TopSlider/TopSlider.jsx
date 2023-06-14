@@ -11,7 +11,7 @@ import slider5 from "../../../../src/assets/slider/slider5.jpg";
 
 const TopSlider = () => {
   return (
-    <div>
+    <div className="mt-4">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

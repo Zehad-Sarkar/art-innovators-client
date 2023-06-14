@@ -7,9 +7,11 @@ import AuthProvider from "./Provider/AuthProvider";
 const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <QueryClientProvider client={queryClient}>
-    <AuthProvider>
-      <RouterProvider router={router} />
-    </AuthProvider>
-  </QueryClientProvider>
+  <div className="m-2">
+    <QueryClientProvider client={queryClient}>
+      <AuthProvider>
+        <RouterProvider router={router} />
+      </AuthProvider>
+    </QueryClientProvider>
+  </div>
 );
