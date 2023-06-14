@@ -150,7 +150,7 @@ const AddClass = () => {
             className="file-input file-input-bordered"
           />
         </div>
-
+        
         <input
           className=" hover:bg-slate-500"
           type="submit"
