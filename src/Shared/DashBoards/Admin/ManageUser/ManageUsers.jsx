@@ -43,7 +43,7 @@ const ManageUsers = () => {
   //event handler for make instructor
   const handleMakeInstructor = (user) => {
     Swal.fire({
-      title: "Are you sure?",
+      title: "Are you sure ?",
       text: `You want to update ${user?.name} as an instructor?`,
       icon: "warning",
       showCancelButton: true,
