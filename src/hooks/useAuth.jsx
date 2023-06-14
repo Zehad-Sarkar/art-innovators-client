@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { AuthContext } from "../Provider/AuthProvider";
 
 const useAuth = () => {
+  // get user
   const { user, loading } = useContext(AuthContext);
   const { data: users = [], refetch } = useQuery({
     queryKey: ["users", user?.email],
