@@ -8,7 +8,7 @@ const MyClass = () => {
   const [classes, refetch] = useMyClasses();
   const total = classes.reduce((sum, p) => sum + p.price, 0);
 
-  // handle delete a selected class
+  // handle delete a selected class 
   const handleDelete = (item) => {
     Swal.fire({
       title: "Are you sure want to delete it?",
@@ -45,7 +45,7 @@ const MyClass = () => {
       </div>
       <div className="overflow-x-auto">
         <table className="table">
-          {/* head */}
+        
           <thead>
             <tr>
               <th>Sl</th>
