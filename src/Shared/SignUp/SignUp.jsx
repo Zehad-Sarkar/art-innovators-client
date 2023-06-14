@@ -46,7 +46,7 @@ const SignUp = () => {
           imgURL,
         };
         updateUserProfile(data.name, imgURL).then(() => {
-          //Data stored on mongodb
+          //Data stored on database
           axios
             .post("https://art-innovators-server.vercel.app/users", userData)
             .then((res) => {
